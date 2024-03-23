@@ -1,5 +1,4 @@
-include "main.h"
-include "can.h"
+#include "stm32f4xx_hal.h"
 
 // 定义指令的CAN ID
 #define MOTOR_ON_CMD_ID        (0x200 + BOARD_ID)
